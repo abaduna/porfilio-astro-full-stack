@@ -1,0 +1,32 @@
+{
+    "projects": [
+      {
+        "title": "Piedra, papel y tijera",
+        "tecnologis": "React scoket.io",
+        "img":"../../public/img/ppot.png",
+        "carateristicas":"multijugador con salas para jugar",
+        "link":"",
+        "funcion":["se puede jugar de manera individual","se puede jugar con otra persona solo entrando a la misma sala"],
+        "urlVideo":"https://www.youtube.com/embed/qtgtLXWalT0?si=JVPuAu0VVXfk-f_1"
+    }, {
+        "title": "Sistema de ventas",
+        "tecnologis": "React-Express-React Native",
+        "img":"../../public/img/ventas.png",
+        "carateristicas":"Sistema para anotar ventas",
+        "link":"https://github.com/abaduna/fullstack-express-react-react-native",
+        "funcion":["Anotar ventas","Borrar venta"],
+        "urlVideo":"https://youtu.be/N1dSycykBzs",
+        "urlNative":"https://youtube.com/shorts/7C6zhWorDdk?feature=share"
+    }, {
+        "title": "Turnos",
+        "tecnologis": "React Express SQL",
+        "img":"../../public/img/turnos.jpg",
+        "carateristicas":"podes eligir un medico y el horario disponible,agregar un nuevo medico.",
+        "link":"https://github.com/abaduna/turnos-express-react",
+        "funcion":["Elegir el médico y los horarios disponibless","Seleccionar una hora disponible","Agregar un nuevo medico"],
+        "urlVideo":"https://www.youtube.com/embed/HKVo-9HtSzE?si=f5Kb_ssDd0VD2U1s"
+    }
+
+    
+    ]
+  }

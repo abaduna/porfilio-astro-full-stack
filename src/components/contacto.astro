@@ -1,0 +1,78 @@
+---
+import 'bootstrap/dist/css/bootstrap.css'
+---
+
+
+<div class="formulario">
+      
+    <form
+      target="_blank"
+      action="https://formsubmit.co/artuelrey@gmail.com"
+      method="POST"
+    >
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col col-input">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Nombre completo"
+              required
+            />
+          </div>
+          <div class="col col-input">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="col col-input">
+            <input
+              type="text"
+              name="asunto"
+              class="form-control"
+              placeholder="Asunto"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="form-group  col-input">
+        <textarea
+          placeholder="Mensaje"
+          class="form-control"
+          name="message"
+          rows="10"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-lg btn-dark btun-block">
+        Enviar
+      </button>
+    </form>
+  </div>
+
+  <style>
+    .formulario{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   width: 100%;
+   margin-top: 15px;
+   margin-bottom:50px;
+    
+}
+.btun-block{
+    width: 100%;
+    margin-top: 7px;
+}
+.col-input{
+    margin-top: 5px;
+    width: 100%;
+}
+  </style>

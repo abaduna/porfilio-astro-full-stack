@@ -1,0 +1,47 @@
+---
+import { projects } from "../config/proyect.json";
+const projec = projects[2];
+import Navbar from "../components/Navbar.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turnos</title>
+  </head>
+  <body>
+    <Navbar />
+    <div class="body">
+      <p>
+        Podes ver el codigo <a></a>
+        {projec.carateristicas}.{" "}
+        <a href={projec.link} target="_blank"> aca</a>
+      </p>
+      <img class="image" src={projec.img} />
+      <ul>
+        {projec.funcion.map((carcterica) => <li>{carcterica}</li>)}
+      </ul>
+      <>
+        <a href={projec.urlVideo} target="_blank"> Video en funcionamento</a>
+        <br />
+      </>
+    </div>
+  </body>
+</html>
+<style>
+   .body{
+    padding: 8px;
+    background-color: #c2b08044;
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .modal-Componnet {
+    width: 100%!;
+    border: 1px solid black;
+  }
+</style>
